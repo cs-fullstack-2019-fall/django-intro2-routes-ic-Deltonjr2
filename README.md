@@ -7,7 +7,8 @@ In the Django implementation, you have a default set of endpoints, but can have 
 
 * Create a new Django project using ```django-admin startproject route66_project```
 * Add an application using ```python manage.py startapp route66```
-* Import ```views``` into your base ```urls.py```
+* Create an ```urls.py``` in the application directory
+* Include the application ```urls.py``` into your project ```urls.py```
 
 
 Add the following endpoints and responses:
