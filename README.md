@@ -6,7 +6,7 @@ In the Django implementation, you have a default set of endpoints, but can have 
 ### Exercise 1:
 
 * Create a new Django project using ```django-admin startproject route66_project```
-* Add an application using ```python manage.py startapp route66```
+* Add an application using ```python manage.py startapp route66_app```
 * Create an ```urls.py``` in the application directory
 * Include the application ```urls.py``` into your project ```urls.py```
 
